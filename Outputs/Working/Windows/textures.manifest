@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 439519607
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 050d5582af4897b89b7bc0f42c1e2292
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Textures/Villarger_B_Boy_F01.psd
+- Assets/GameMain/Textures/Darger02.psd
+Dependencies: []

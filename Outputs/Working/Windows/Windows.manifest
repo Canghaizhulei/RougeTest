@@ -1,0 +1,82 @@
+ManifestFileVersion: 0
+CRC: 3588970866
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ui/uisprites/common
+      Dependencies: {}
+    Info_1:
+      Name: fonts
+      Dependencies: {}
+    Info_2:
+      Name: music/about
+      Dependencies: {}
+    Info_3:
+      Name: localization/dictionaries.zh-tw
+      Dependencies: {}
+    Info_4:
+      Name: datatables
+      Dependencies: {}
+    Info_5:
+      Name: localization/dictionaries.en-us
+      Dependencies: {}
+    Info_6:
+      Name: sounds
+      Dependencies: {}
+    Info_7:
+      Name: configs
+      Dependencies: {}
+    Info_8:
+      Name: localization/dictionaries.ko-kr
+      Dependencies: {}
+    Info_9:
+      Name: music/background
+      Dependencies: {}
+    Info_10:
+      Name: localization/dictionaries.zh-cn
+      Dependencies: {}
+    Info_11:
+      Name: ui/uisounds
+      Dependencies: {}
+    Info_12:
+      Name: music/menu
+      Dependencies: {}
+    Info_13:
+      Name: ui/uiforms
+      Dependencies:
+        Dependency_0: ui/uisprites/common
+    Info_14:
+      Name: animation/monster
+      Dependencies: {}
+    Info_15:
+      Name: animation/playertom
+      Dependencies: {}
+    Info_16:
+      Name: animator
+      Dependencies:
+        Dependency_0: animation/monster
+        Dependency_1: animation/playertom
+    Info_17:
+      Name: entities
+      Dependencies:
+        Dependency_0: animator
+        Dependency_1: materials
+        Dependency_2: meshes
+    Info_18:
+      Name: materials
+      Dependencies:
+        Dependency_0: textures
+    Info_19:
+      Name: meshes
+      Dependencies:
+        Dependency_0: materials
+    Info_20:
+      Name: navmesh/main
+      Dependencies: {}
+    Info_21:
+      Name: scenes
+      Dependencies:
+        Dependency_0: navmesh/main
+    Info_22:
+      Name: textures
+      Dependencies: {}

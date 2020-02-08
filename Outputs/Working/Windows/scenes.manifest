@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 3061526492
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0480c1190dcb4199a8325605a6ebba93
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bcb0d05f8966c8b717a26321cc3eaa16
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 42241010c6f9ddc46b78abdc21d505c5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 829ac6b46ba2c1c4a81ea415c3ca1a13, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6cb67c6dcb4e4d74eb7aed04254e4089, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 02782addd4f991c458b1e0919406690e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 208
+  Script: {instanceID: 0}
+- Class: 238
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Scenes/Main.unity
+- Assets/GameMain/Scenes/Menu.unity
+Dependencies:
+- F:/unity project/RougeTest/Outputs/Working/Windows/navmesh/main

@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>RougeTest</ProductName>
+      <CompanyName>hw</CompanyName>
+      <GameIdentifier>com.hw.rougetest</GameIdentifier>
+      <ApplicableGameVersion>1.0</ApplicableGameVersion>
+      <InternalResourceVersion>3</InternalResourceVersion>
+      <UnityVersion>2019.1.4f1</UnityVersion>
+      <Platforms>Windows</Platforms>
+      <ZipSelected>True</ZipSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="23">
+      <AssetBundle Name="animation/monster" LoadType="0" Packed="False">
+        <Assets Count="5">
+          <Asset Guid="394b944cebdc3df41a2c0e2237019370" Name="Assets/GameMain/Animation/Monster/MonDeath.anim" Length="836513" HashCode="140266821" />
+          <Asset Guid="4b03fc4a345734f44b08b4e4d8a76adb" Name="Assets/GameMain/Animation/Monster/MonStand.anim" Length="285994" HashCode="1168299379" />
+          <Asset Guid="5f146102ad7b13948b74a64333fe0842" Name="Assets/GameMain/Animation/Monster/MonDefeat.anim" Length="730725" HashCode="-611726825" />
+          <Asset Guid="7bf987a45a993d1478e62a6ff35be021" Name="Assets/GameMain/Animation/Monster/MonAttack.anim" Length="455279" HashCode="-245919082" />
+          <Asset Guid="d6914138c1073844f911f0a447f6c1ff" Name="Assets/GameMain/Animation/Monster/MonRun.anim" Length="312735" HashCode="-1823255567" />
+        </Assets>
+        <Codes>
+          <Windows Length="258300" HashCode="961602652" ZipLength="234073" ZipHashCode="-1675265686" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="animation/playertom" LoadType="0" Packed="False">
+        <Assets Count="5">
+          <Asset Guid="566026f4ee60b2a49bac24b3407a4447" Name="Assets/GameMain/Animation/PlayerTom/Attackstandy.anim" Length="1353004" HashCode="-106638206" />
+          <Asset Guid="6b6acdd0c370b724d85f36c9e1e04e47" Name="Assets/GameMain/Animation/PlayerTom/Damage.anim" Length="1753838" HashCode="-1466087723" />
+          <Asset Guid="bde7cccf5a4e01c4c86c860830fe7b9b" Name="Assets/GameMain/Animation/PlayerTom/Attack00.anim" Length="2750670" HashCode="991501859" />
+          <Asset Guid="c73ebc8dd53b6304abc609e9e15e6cc0" Name="Assets/GameMain/Animation/PlayerTom/Run.anim" Length="1695836" HashCode="-1509361446" />
+          <Asset Guid="febe287604353964a926221bf73ef903" Name="Assets/GameMain/Animation/PlayerTom/Death.anim" Length="2480425" HashCode="831824047" />
+        </Assets>
+        <Codes>
+          <Windows Length="125604" HashCode="309993886" ZipLength="116676" ZipHashCode="-743341251" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="animator" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="1f6665d93aee36f44a8b6018d97cd941" Name="Assets/GameMain/Animator/PlayerTom.controller" Length="5207" HashCode="-366012671">
+            <DependencyAssets Count="5">
+              <DependencyAsset Name="Assets/GameMain/Animation/PlayerTom/Attack00.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/PlayerTom/Attackstandy.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/PlayerTom/Damage.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/PlayerTom/Death.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/PlayerTom/Run.anim" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="281bdf8d274edb64c9aca8f1cfaf1150" Name="Assets/GameMain/Animator/Monster.controller" Length="5210" HashCode="1583705452">
+            <DependencyAssets Count="5">
+              <DependencyAsset Name="Assets/GameMain/Animation/Monster/MonAttack.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/Monster/MonDeath.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/Monster/MonDefeat.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/Monster/MonRun.anim" />
+              <DependencyAsset Name="Assets/GameMain/Animation/Monster/MonStand.anim" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="5320" HashCode="1032843472" ZipLength="4179" ZipHashCode="796974345" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="configs" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="2">
+          <Asset Guid="44c8db52241385c45bbb14a1718f17bf" Name="Assets/GameMain/Configs/DefaultConfig.txt" Length="162" HashCode="1970827408" />
+          <Asset Guid="7fd11dc5d29076d469d414dec2818f11" Name="Assets/GameMain/Configs/DefaultConfig.bytes" Length="45" HashCode="698598607" />
+        </Assets>
+        <Codes>
+          <Windows Length="1331" HashCode="1554208799" ZipLength="1124" ZipHashCode="737811000" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="datatables" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="19">
+          <Asset Guid="134bea3a47cb3d644bf8e8a89e48622c" Name="Assets/GameMain/DataTables/Test.txt" Length="1858" HashCode="-1128442099" />
+          <Asset Guid="2630c0a31d19991438f440dcf91ac8ee" Name="Assets/GameMain/DataTables/Test.bytes" Length="174" HashCode="-192494952" />
+          <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" Name="Assets/GameMain/DataTables/Music.txt" Length="254" HashCode="141271682" />
+          <Asset Guid="31bc8e8f92d16c3439d980efb6edf7c7" Name="Assets/GameMain/DataTables/Monster.bytes" Length="12" HashCode="735570244" />
+          <Asset Guid="352da872791696c48af3b21132e3e3c3" Name="Assets/GameMain/DataTables/UIForm.txt" Length="628" HashCode="691786543" />
+          <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" Name="Assets/GameMain/DataTables/Sound.txt" Length="868" HashCode="-981921304" />
+          <Asset Guid="4db6a299939bfe94893585eb387f577a" Name="Assets/GameMain/DataTables/Thruster.bytes" Length="12" HashCode="79989063" />
+          <Asset Guid="77f862b73ef5c034a81ae582670aebfb" Name="Assets/GameMain/DataTables/Role.txt" Length="148" HashCode="-520359197" />
+          <Asset Guid="827d971d8c820c94ead3b88b5543acfa" Name="Assets/GameMain/DataTables/Role.bytes" Length="12" HashCode="-783382180" />
+          <Asset Guid="8e114ded6a865324588170636872943c" Name="Assets/GameMain/DataTables/UISound.bytes" Length="45" HashCode="-494364942" />
+          <Asset Guid="97d117308cf86924289e81e7e71dd5dd" Name="Assets/GameMain/DataTables/Entity.bytes" Length="38" HashCode="-1005292592" />
+          <Asset Guid="9b433f0bb7fef6f4085c316a0d88c307" Name="Assets/GameMain/DataTables/Music.bytes" Length="64" HashCode="737020507" />
+          <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" Name="Assets/GameMain/DataTables/Sound.bytes" Length="204" HashCode="-756330739" />
+          <Asset Guid="a1b105843ccdcd54f837cc76e594d50e" Name="Assets/GameMain/DataTables/Monster.txt" Length="168" HashCode="144968249" />
+          <Asset Guid="a33e23ae848110243820cda82120b105" Name="Assets/GameMain/DataTables/UIForm.bytes" Length="114" HashCode="-496231871" />
+          <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" Name="Assets/GameMain/DataTables/Scene.txt" Length="240" HashCode="-1388433476" />
+          <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" Name="Assets/GameMain/DataTables/Entity.txt" Length="212" HashCode="1595934651" />
+          <Asset Guid="f2f97a713beae744181ba934f9c4113a" Name="Assets/GameMain/DataTables/UISound.txt" Length="334" HashCode="1201326981" />
+          <Asset Guid="fdb5edd099d06b045af609ba3172400a" Name="Assets/GameMain/DataTables/Scene.bytes" Length="34" HashCode="567971085" />
+        </Assets>
+        <Codes>
+          <Windows Length="3931" HashCode="1499653857" ZipLength="3416" ZipHashCode="-1468030508" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="entities" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="44a6cc0d770fb4441b546a435946cb9a" Name="Assets/GameMain/Entities/PlayerTom.prefab" Length="69535" HashCode="2078037029">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/GameMain/Animator/PlayerTom.controller" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Darger02.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Villarger_B_Boy_F01.mat" />
+              <DependencyAsset Name="Assets/GameMain/Meshes/Villarger_B_Boy.FBX" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="62859e20c0b09234c84885417a67a851" Name="Assets/GameMain/Entities/SoulMonster.prefab" Length="77199" HashCode="1275126163">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animator/Monster.controller" />
+              <DependencyAsset Name="Assets/GameMain/Meshes/SoulMonster.FBX" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="59967" HashCode="-1806274715" ZipLength="49881" ZipHashCode="-1003991407" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="fonts" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="77cbb7c5404c10242ab59953e0746314" Name="Assets/GameMain/Fonts/MainFont.ttf" Length="7070444" HashCode="-915020890" />
+        </Assets>
+        <Codes>
+          <Windows Length="4649408" HashCode="299767005" ZipLength="4064607" ZipHashCode="1507048313" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="localization/dictionaries" Variant="en-us" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="14869ac0d4433f04db1704e39d03412e" Name="Assets/GameMain/Localization/English/Dictionaries/Default.xml" Length="1970" HashCode="-1951558404" />
+        </Assets>
+        <Codes>
+          <Windows Length="2154" HashCode="436495048" ZipLength="1792" ZipHashCode="-1194923368" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="localization/dictionaries" Variant="ko-kr" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="5dcd89912e222bf4c87f76db4044bc5e" Name="Assets/GameMain/Localization/Korean/Dictionaries/Default.xml" Length="2160" HashCode="1818788146" />
+        </Assets>
+        <Codes>
+          <Windows Length="2218" HashCode="1584361834" ZipLength="1922" ZipHashCode="2047004404" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="localization/dictionaries" Variant="zh-cn" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" Name="Assets/GameMain/Localization/ChineseSimplified/Dictionaries/Default.xml" Length="1899" HashCode="-588953613" />
+        </Assets>
+        <Codes>
+          <Windows Length="2104" HashCode="2139508363" ZipLength="1833" ZipHashCode="2145043750" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="localization/dictionaries" Variant="zh-tw" LoadType="0" Packed="True" ResourceGroups="Base">
+        <Assets Count="1">
+          <Asset Guid="1053b0070685be347ab58587156842dc" Name="Assets/GameMain/Localization/ChineseTraditional/Dictionaries/Default.xml" Length="1900" HashCode="-1299664518" />
+        </Assets>
+        <Codes>
+          <Windows Length="2114" HashCode="-263405818" ZipLength="1845" ZipHashCode="-364108727" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="materials" LoadType="0" Packed="True">
+        <Assets Count="3">
+          <Asset Guid="2c09d8e0bf4fc3e4689ce674f6851257" Name="Assets/GameMain/Materials/Villarger_B_Boy_F.mat" Length="794" HashCode="909774874">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/Villarger_B_Boy_F01.psd" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="5f8490ec6ce6f6743b6d654e4463b22c" Name="Assets/GameMain/Materials/Villarger_B_Boy_F01.mat" Length="802" HashCode="687804806">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/Villarger_B_Boy_F01.psd" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="c4aad4d2393776444b9dff29108f94c7" Name="Assets/GameMain/Materials/Darger02.mat" Length="820" HashCode="1054547377">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/Darger02.psd" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="26953" HashCode="1181864500" ZipLength="20590" ZipHashCode="-259683688" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="meshes" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="c705588cdeccd5c4a897cc4f77158f93" Name="Assets/GameMain/Meshes/Villarger_B_Boy.FBX" Length="233424" HashCode="-142894782">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Materials/Darger02.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/Villarger_B_Boy_F.mat" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="ee2fecf38ed336044a5eb6de12f863cf" Name="Assets/GameMain/Meshes/SoulMonster.FBX" Length="308663" HashCode="1054368460" />
+        </Assets>
+        <Codes>
+          <Windows Length="179134" HashCode="1346410477" ZipLength="148565" ZipHashCode="-1849041149" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="music/about" LoadType="0" Packed="True" ResourceGroups="Music">
+        <Assets Count="1">
+          <Asset Guid="093f8873cfe371d41b854ed9fb6bff69" Name="Assets/GameMain/Music/music_about.mp3" Length="5188156" HashCode="-1448743119" />
+        </Assets>
+        <Codes>
+          <Windows Length="1953577" HashCode="-1421185484" ZipLength="1944615" ZipHashCode="1345595601" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="music/background" LoadType="0" Packed="True" ResourceGroups="Music">
+        <Assets Count="1">
+          <Asset Guid="638ff8ae4a0d15047839cd265d3bc296" Name="Assets/GameMain/Music/music_background.mp3" Length="2336432" HashCode="588648626" />
+        </Assets>
+        <Codes>
+          <Windows Length="80005" HashCode="-998321809" ZipLength="79472" ZipHashCode="-1295045083" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="music/menu" LoadType="0" Packed="True" ResourceGroups="Music">
+        <Assets Count="1">
+          <Asset Guid="caa829ab2ffc71340a69253afdf58365" Name="Assets/GameMain/Music/music_menu.mp3" Length="1866065" HashCode="306016124" />
+        </Assets>
+        <Codes>
+          <Windows Length="625103" HashCode="-281453278" ZipLength="622522" ZipHashCode="-976554197" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="navmesh/main" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="4cc1397d3ccae6049803e0a52733e0d8" Name="Assets/GameMain/Scenes/Main/NavMesh.asset" Length="18764" HashCode="360490379" />
+        </Assets>
+        <Codes>
+          <Windows Length="7273" HashCode="1769506979" ZipLength="5655" ZipHashCode="230154261" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="scenes" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="c3f21cb7dfc0ec04e9d113d2cc2be329" Name="Assets/GameMain/Scenes/Main.unity" Length="37461" HashCode="-662480480">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Scenes/Main/NavMesh.asset" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="efaa979d03879914590270b0d8efb16b" Name="Assets/GameMain/Scenes/Menu.unity" Length="3410" HashCode="778968233" />
+        </Assets>
+        <Codes>
+          <Windows Length="3271172" HashCode="-47751627" ZipLength="2734725" ZipHashCode="-227429465" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="sounds" LoadType="0" Packed="True">
+        <Assets Count="5">
+          <Asset Guid="1be4472894949437694aead55c6da60f" Name="Assets/GameMain/Sounds/weapon_enemy.wav" Length="51004" HashCode="-1155291960" />
+          <Asset Guid="3dc7455402dfa462b89a4bbd513955e9" Name="Assets/GameMain/Sounds/explosion_asteroid.wav" Length="149216" HashCode="305962817" />
+          <Asset Guid="72e76810224064300b7d32e8322a5d12" Name="Assets/GameMain/Sounds/explosion_enemy.wav" Length="174116" HashCode="-984961901" />
+          <Asset Guid="a019ae3af8e864616b85773c509f5285" Name="Assets/GameMain/Sounds/explosion_player.wav" Length="326536" HashCode="2022881377" />
+          <Asset Guid="bf75b984df8a84987bcf3a8bf6e2862d" Name="Assets/GameMain/Sounds/weapon_player.wav" Length="65792" HashCode="1405407806" />
+        </Assets>
+        <Codes>
+          <Windows Length="28766" HashCode="1232444601" ZipLength="28448" ZipHashCode="766145666" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="textures" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="3c5790cebd66fb649bb5d71e36595308" Name="Assets/GameMain/Textures/Villarger_B_Boy_F01.psd" Length="7427872" HashCode="1080986115" />
+          <Asset Guid="6383e2ee32f6106409a520c80b8c417c" Name="Assets/GameMain/Textures/Darger02.psd" Length="2171450" HashCode="572574882" />
+        </Assets>
+        <Codes>
+          <Windows Length="522792" HashCode="463543118" ZipLength="465878" ZipHashCode="-1179363531" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uiforms" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="04d7dde7615d71b4db1a0c8d67a62e95" Name="Assets/GameMain/UI/UIForms/DialogForm.prefab" Length="56987" HashCode="-646401918" />
+          <Asset Guid="09966b19e546cc94aa84d0743cb2a83d" Name="Assets/GameMain/UI/UIForms/MenuForm.prefab" Length="22991" HashCode="-988589701">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/ColorButtonCyan.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="11217" HashCode="-1978985273" ZipLength="9402" ZipHashCode="746468704" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uisounds" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="c7d1e11dd37634b48a9dd4012b8e4306" Name="Assets/GameMain/UI/UISounds/click.wav" Length="41568" HashCode="-1547829698" />
+          <Asset Guid="e830964cdb85ff3429bca484c16bab44" Name="Assets/GameMain/UI/UISounds/select.wav" Length="41568" HashCode="-1920478215" />
+        </Assets>
+        <Codes>
+          <Windows Length="2526" HashCode="-406698688" ZipLength="2175" ZipHashCode="-1229824455" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui/uisprites/common" LoadType="0" Packed="True">
+        <Assets Count="40">
+          <Asset Guid="0824e9bd8d360fd4d87c6ae6741f1449" Name="Assets/GameMain/UI/UISprites/Common/PartsLowerBody.png" Length="25631" HashCode="-737090304" />
+          <Asset Guid="199f336d9b5dcbb4fb3d17b992087671" Name="Assets/GameMain/UI/UISprites/Common/Gold.png" Length="13867" HashCode="-1730635590" />
+          <Asset Guid="1fe7ddfd2c95dcc41bf1e3f90371ce57" Name="Assets/GameMain/UI/UISprites/Common/AttackButtonGray.png" Length="33819" HashCode="-19867410" />
+          <Asset Guid="33411f2945254a544a83e4dd6ecd252d" Name="Assets/GameMain/UI/UISprites/Common/NormalAttack.png" Length="18760" HashCode="1919602761" />
+          <Asset Guid="35b09b4b01f5d984d8041f542a7a28ed" Name="Assets/GameMain/UI/UISprites/Common/JoystickBackground.png" Length="39015" HashCode="1108007233" />
+          <Asset Guid="3fbc704b3a5a20d4699756ac2011f1f8" Name="Assets/GameMain/UI/UISprites/Common/MainMenu.png" Length="14707" HashCode="-675046588" />
+          <Asset Guid="43873749b4940264da7cdb9292192428" Name="Assets/GameMain/UI/UISprites/Common/EnemyIcon.png" Length="3881" HashCode="1903683763" />
+          <Asset Guid="47158f3315184094396783235526a39c" Name="Assets/GameMain/UI/UISprites/Common/Summon.png" Length="32103" HashCode="1746894025" />
+          <Asset Guid="4762e62d655677341825d0b89074b5a0" Name="Assets/GameMain/UI/UISprites/Common/PartsSave.png" Length="18584" HashCode="1223562877" />
+          <Asset Guid="4ef781fe479ea01418f78b237beec15b" Name="Assets/GameMain/UI/UISprites/Common/AttackButton.png" Length="31565" HashCode="656797238" />
+          <Asset Guid="5d8f57347ad36fb41989d4c10bc9d9d7" Name="Assets/GameMain/UI/UISprites/Common/UI3.png" Length="10807" HashCode="-1937658379" />
+          <Asset Guid="5e87d524ed0be8e4fa8a4339aa6057b5" Name="Assets/GameMain/UI/UISprites/Common/ColorButtonPurple.png" Length="6079" HashCode="1222274784" />
+          <Asset Guid="6044bc62d0348054aa71f6c88e61f3b7" Name="Assets/GameMain/UI/UISprites/Common/SelectionArrow.png" Length="6869" HashCode="-1414057729" />
+          <Asset Guid="627db53698bfe244584d000262a2e30d" Name="Assets/GameMain/UI/UISprites/Common/YouFailed.png" Length="34868" HashCode="1928638917" />
+          <Asset Guid="649af99c7cdf7df49ad0baafab75fcb4" Name="Assets/GameMain/UI/UISprites/Common/RangeAttackGray.png" Length="23950" HashCode="1043943704" />
+          <Asset Guid="6599cb0bbf0ad3a4480ce734fe8cbf6b" Name="Assets/GameMain/UI/UISprites/Common/UIStart.png" Length="26279" HashCode="11633627" />
+          <Asset Guid="6bd503e3df47aef42a6e22bbae60a54f" Name="Assets/GameMain/UI/UISprites/Common/UILevelUp.png" Length="32623" HashCode="-1433867076" />
+          <Asset Guid="6c041d36bd4175b48bd18de44a9c5a30" Name="Assets/GameMain/UI/UISprites/Common/ColorButtonRed.png" Length="5841" HashCode="1553387873" />
+          <Asset Guid="6dee28457d4251646b546e097ecf49ee" Name="Assets/GameMain/UI/UISprites/Common/PartsHead.png" Length="12387" HashCode="-1849491894" />
+          <Asset Guid="79aa35ef51afebd4f8c5e868bd4a3436" Name="Assets/GameMain/UI/UISprites/Common/Joystick.png" Length="12910" HashCode="1037760545" />
+          <Asset Guid="80dd8d3d9ed089f4ba01b2452d7c66a6" Name="Assets/GameMain/UI/UISprites/Common/UIResult.png" Length="26716" HashCode="1797329342" />
+          <Asset Guid="9564d98212435c04ebfebafba1f3a436" Name="Assets/GameMain/UI/UISprites/Common/PartsPlay.png" Length="15832" HashCode="-2037914543" />
+          <Asset Guid="9721ebd06b2a1f2419e0d1848fe959fc" Name="Assets/GameMain/UI/UISprites/Common/SelectCharacter.png" Length="31877" HashCode="1156279719" />
+          <Asset Guid="9ee1e8b40aacc86468ef575bf336a818" Name="Assets/GameMain/UI/UISprites/Common/YouWin.png" Length="26641" HashCode="-1474899554" />
+          <Asset Guid="a041bf3b55b1df04db1c3ced1440af14" Name="Assets/GameMain/UI/UISprites/Common/ColorButtonGreen.png" Length="6231" HashCode="-835863628" />
+          <Asset Guid="a14d114f7c668d849b61ddf40a4879e4" Name="Assets/GameMain/UI/UISprites/Common/PartsUpperBody.png" Length="23471" HashCode="626611456" />
+          <Asset Guid="a1a30b4ce3895664db485ce70d2e81ba" Name="Assets/GameMain/UI/UISprites/Common/UIReady.png" Length="26584" HashCode="-834696539" />
+          <Asset Guid="aaf2b670d3fe7e7498268ec9e2bde298" Name="Assets/GameMain/UI/UISprites/Common/Setting01.png" Length="710" HashCode="778682875" />
+          <Asset Guid="ac8a1e5135604b5429fc965a8b6b1084" Name="Assets/GameMain/UI/UISprites/Common/PartsFoot.png" Length="13258" HashCode="-913282774" />
+          <Asset Guid="b70df40b796483041848b81076562e4a" Name="Assets/GameMain/UI/UISprites/Common/UI2.png" Length="9422" HashCode="1072351964" />
+          <Asset Guid="b8dda2c775b8cdb4cbf2617186649aaf" Name="Assets/GameMain/UI/UISprites/Common/PartsHand.png" Length="12655" HashCode="-199073805" />
+          <Asset Guid="ba06622e75134af4f8b291c62d0ef71b" Name="Assets/GameMain/UI/UISprites/Common/ColorButtonBlue.png" Length="5935" HashCode="-2059417343" />
+          <Asset Guid="cb28376ae49bc5642aec8dde17e30c85" Name="Assets/GameMain/UI/UISprites/Common/UI1.png" Length="5028" HashCode="1220681420" />
+          <Asset Guid="cca92dbea03ea4f4b87e15ffa8e700af" Name="Assets/GameMain/UI/UISprites/Common/Replay.png" Length="14756" HashCode="737584256" />
+          <Asset Guid="cd332d023b03e4944b7b3cb4185a2292" Name="Assets/GameMain/UI/UISprites/Common/RangeAttack.png" Length="18937" HashCode="-2004408704" />
+          <Asset Guid="cf66a469c3ad1a94ab5b055265ff783f" Name="Assets/GameMain/UI/UISprites/Common/MinimapBackground.png" Length="41082" HashCode="-1716439725" />
+          <Asset Guid="d13b5402f97e03e4db3d4c3807ccb3f6" Name="Assets/GameMain/UI/UISprites/Common/PlayerIcon.png" Length="4489" HashCode="1246540214" />
+          <Asset Guid="d84d0ae136b7e0a4db2529eb337aa36d" Name="Assets/GameMain/UI/UISprites/Common/BossIcon.png" Length="4623" HashCode="-211758560" />
+          <Asset Guid="dc786870c8ea9b449be22e354dbea54e" Name="Assets/GameMain/UI/UISprites/Common/PartsRandom.png" Length="18170" HashCode="-9829444" />
+          <Asset Guid="eca3f5ce5f3f5b941a7bdbb78c3f0724" Name="Assets/GameMain/UI/UISprites/Common/ColorButtonCyan.png" Length="5649" HashCode="-1619850555" />
+        </Assets>
+        <Codes>
+          <Windows Length="612049" HashCode="1606482257" ZipLength="500803" ZipHashCode="-1491410048" />
+        </Codes>
+      </AssetBundle>
+    </AssetBundles>
+  </BuildReport>
+</UnityGameFramework>

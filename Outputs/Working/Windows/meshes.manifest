@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1645179610
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7c0dd2c9d4210e611c4efcc2ccb4d89
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 38a9209dcb5eb45537de6f99ca34f0fb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Meshes/SoulMonster.FBX
+- Assets/GameMain/Meshes/Villarger_B_Boy.FBX
+Dependencies:
+- F:/unity project/RougeTest/Outputs/Working/Windows/materials

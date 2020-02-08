@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 4197755459
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 555866173345d1eebf6a066473eb209b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/UI/UISprites/Common/Setting01.png
+- Assets/GameMain/UI/UISprites/Common/PartsRandom.png
+- Assets/GameMain/UI/UISprites/Common/SelectCharacter.png
+- Assets/GameMain/UI/UISprites/Common/PartsFoot.png
+- Assets/GameMain/UI/UISprites/Common/BossIcon.png
+- Assets/GameMain/UI/UISprites/Common/PlayerIcon.png
+- Assets/GameMain/UI/UISprites/Common/RangeAttack.png
+- Assets/GameMain/UI/UISprites/Common/SelectionArrow.png
+- Assets/GameMain/UI/UISprites/Common/PartsPlay.png
+- Assets/GameMain/UI/UISprites/Common/Summon.png
+- Assets/GameMain/UI/UISprites/Common/UILevelUp.png
+- Assets/GameMain/UI/UISprites/Common/ColorButtonPurple.png
+- Assets/GameMain/UI/UISprites/Common/UI3.png
+- Assets/GameMain/UI/UISprites/Common/YouWin.png
+- Assets/GameMain/UI/UISprites/Common/PartsHead.png
+- Assets/GameMain/UI/UISprites/Common/YouFailed.png
+- Assets/GameMain/UI/UISprites/Common/ColorButtonRed.png
+- Assets/GameMain/UI/UISprites/Common/PartsHand.png
+- Assets/GameMain/UI/UISprites/Common/NormalAttack.png
+- Assets/GameMain/UI/UISprites/Common/EnemyIcon.png
+- Assets/GameMain/UI/UISprites/Common/MinimapBackground.png
+- Assets/GameMain/UI/UISprites/Common/UI1.png
+- Assets/GameMain/UI/UISprites/Common/UI2.png
+- Assets/GameMain/UI/UISprites/Common/UIStart.png
+- Assets/GameMain/UI/UISprites/Common/ColorButtonGreen.png
+- Assets/GameMain/UI/UISprites/Common/MainMenu.png
+- Assets/GameMain/UI/UISprites/Common/JoystickBackground.png
+- Assets/GameMain/UI/UISprites/Common/UIReady.png
+- Assets/GameMain/UI/UISprites/Common/RangeAttackGray.png
+- Assets/GameMain/UI/UISprites/Common/PartsSave.png
+- Assets/GameMain/UI/UISprites/Common/UIResult.png
+- Assets/GameMain/UI/UISprites/Common/Gold.png
+- Assets/GameMain/UI/UISprites/Common/PartsLowerBody.png
+- Assets/GameMain/UI/UISprites/Common/AttackButtonGray.png
+- Assets/GameMain/UI/UISprites/Common/ColorButtonBlue.png
+- Assets/GameMain/UI/UISprites/Common/Replay.png
+- Assets/GameMain/UI/UISprites/Common/ColorButtonCyan.png
+- Assets/GameMain/UI/UISprites/Common/AttackButton.png
+- Assets/GameMain/UI/UISprites/Common/PartsUpperBody.png
+- Assets/GameMain/UI/UISprites/Common/Joystick.png
+Dependencies: []

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3245990067
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1a0c7d8eddd0e1fb5585cce87be1199
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameMain/Animation/PlayerTom/Damage.anim
+- Assets/GameMain/Animation/PlayerTom/Attackstandy.anim
+- Assets/GameMain/Animation/PlayerTom/Death.anim
+- Assets/GameMain/Animation/PlayerTom/Run.anim
+- Assets/GameMain/Animation/PlayerTom/Attack00.anim
+Dependencies: []
